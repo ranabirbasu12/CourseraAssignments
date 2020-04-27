@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(97, 88, 78);
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar-header{
+    height: 80px;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+.navbar{
+    background-color: rgba(231, 231, 231, 0.9);
+}
+.navbar-header > .navbar-brand{
+    font-weight: 400;
+    font-size: 4em;
+    margin-left: 10px;
+}
+.nav > li{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+#chicken{
+    border: blanchedalmond solid 5px;
+    border-radius: 3rem;
+    min-height: 1000px;
+    background-color: rgba(255, 255, 255, 0.2);
+    
+    padding: 5px;
+}
+#chicken > p{
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-shadow: 5px 5px 5px black;
+}
+#head > h1{
+    color: white;
+    font-size: 8rem;
+    font-weight: 100;
+    text-shadow: 5px 5px 5px black;
+}
+#start{
+    margin-bottom: 5rem;
+}
+#chicken > h3{
+    color: white;
+    font-size: 6rem;
+    text-shadow: 5px 5px 5px black;
+}
